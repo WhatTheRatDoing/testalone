@@ -103,33 +103,33 @@ k.go("introDialog");
 k.scene("mainGame", () => {
 
   
-k.loadSprite("chemical-bg", "graphics/chemical-bg.png");
-k.loadSprite("platforms", "graphics/platformstwo.PNG");
-k.loadSprite("platforms3", "graphics/60.png");
-k.loadSprite("platforms2", "graphics/59.png");
-k.loadSprite("platforms11", "graphics/33.png");
-k.loadSprite("platforms12", "graphics/36.png");
-k.loadSprite("platforms13", "graphics/37.png");
-k.loadSprite("platforms14", "graphics/38.png");
-k.loadSprite("platforms15", "graphics/39.png");
-k.loadSprite("platforms16", "graphics/41.png");
-k.loadSprite("platforms17", "graphics/42.png");
-k.loadSprite("platforms18", "graphics/3.png");
-k.loadSprite("platforms19", "graphics/4.png");
-k.loadSprite("platforms20", "graphics/5.png");
-k.loadSprite("platforms21", "graphics/7.png");
-k.loadSprite("platforms22", "graphics/2.png");
+k.loadSprite("chemical-bg", "/testalone/graphics/chemical-bg.png");
+k.loadSprite("platforms", "/testalone/graphics/platformstwo.PNG");
+k.loadSprite("platforms3", "/testalone/graphics/60.png");
+k.loadSprite("platforms2", "/testalone/graphics/59.png");
+k.loadSprite("platforms11", "/testalone/graphics/33.png");
+k.loadSprite("platforms12", "/testalone/graphics/36.png");
+k.loadSprite("platforms13", "/testalone/graphics/37.png");
+k.loadSprite("platforms14", "/testalone/graphics/38.png");
+k.loadSprite("platforms15", "/testalone/graphics/39.png");
+k.loadSprite("platforms16", "/testalone/graphics/41.png");
+k.loadSprite("platforms17", "/testalone/graphics/42.png");
+k.loadSprite("platforms18", "/testalone/graphics/3.png");
+k.loadSprite("platforms19", "/testalone/graphics/4.png");
+k.loadSprite("platforms20", "/testalone/graphics/5.png");
+k.loadSprite("platforms21", "/testalone/graphics/7.png");
+k.loadSprite("platforms22", "/testalone/graphics/2.png");
 
 
-k.loadSprite("platforms4", "graphics/bg-61.png")
-k.loadSprite("platforms5", "graphics/bg-62.png")
-k.loadSprite("platforms6", "graphics/bg-63.png")
-k.loadSprite("platforms7", "graphics/bg-64.png")
-k.loadSprite("platforms8", "graphics/bg-65.png")
-k.loadSprite("platforms9", "graphics/bg-66.png")
-k.loadSprite("platforms10", "graphics/bg-67.png")
+k.loadSprite("platforms4", "/testalone/graphics/bg-61.png")
+k.loadSprite("platforms5", "/testalone/graphics/bg-62.png")
+k.loadSprite("platforms6", "/testalone/graphics/bg-63.png")
+k.loadSprite("platforms7", "/testalone/graphics/bg-64.png")
+k.loadSprite("platforms8", "/testalone/graphics/bg-65.png")
+k.loadSprite("platforms9", "/testalone/graphics/bg-66.png")
+k.loadSprite("platforms10", "/testalone/graphics/bg-67.png")
 
-k.loadSprite("sonic","graphics/sonic.png", {
+k.loadSprite("sonic","/testalone/graphics/sonic.png", {
   sliceX: 16,
   sliceY: 6,
   anims: {
@@ -163,16 +163,16 @@ k.loadSprite("sonic","graphics/sonic.png", {
 
 
 
-k.loadFont("mania","fonts/mania.ttf");
+k.loadFont("mania","/testalone/fonts/mania.ttf");
 
-k.loadSound("destroy","sounds/Destroy.wav");
-k.loadSound("hurt","sounds/Hurt.wav");
-k.loadSound("hyper-ring","sounds/HyperRing.wav");
-k.loadSound("jump","sounds/Jump.wav");
-k.loadSound("ring","sounds/Ring.wav");
-k.loadSound("city","sounds/city.wav");
-k.loadSound("speed","sounds/sonic-spindash.mp3");
-k.loadSound("exe","sounds/sonic-exe-laugh.mp3");
+k.loadSound("destroy","/testalone/sounds/Destroy.wav");
+k.loadSound("hurt","/testalone/sounds/Hurt.wav");
+k.loadSound("hyper-ring","/testalone/sounds/HyperRing.wav");
+k.loadSound("jump","/testalone/sounds/Jump.wav");
+k.loadSound("ring","/testalone/sounds/Ring.wav");
+k.loadSound("city","/testalone/sounds/city.wav");
+k.loadSound("speed","/testalone/sounds/sonic-spindash.mp3");
+k.loadSound("exe","/testalone/sounds/sonic-exe-laugh.mp3");
 makeplayer();
 
   k.setGravity(2500)
